@@ -12,9 +12,7 @@ export default class Projects extends React.Component{
         return(
             
             <div>
-            
               <ScrollableAnchor id={'about'}>
-                
                 <div class='aboutBackground'>
                 <br></br>
                 <br></br>
@@ -24,7 +22,7 @@ export default class Projects extends React.Component{
               <ScrollableAnchor id={'project'}>
                 
                 <div class="projectsheader">
-                <br></br>
+                <br/>
                 <h1 class="projectsheader">Projects___</h1> 
                 </div>
                 </ScrollableAnchor>
