@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Dropdown } from 'react-bootstrap';
+import { Navbar, Nav,  } from 'react-bootstrap';
 import { Icon } from 'semantic-ui-react'
 
 
@@ -19,6 +19,7 @@ export default class Navigationbar extends React.Component{
                 className="d-inline-block align-top"
             />{' '}
             Mario Rodriguez
+            
             </Navbar.Brand>
             <a href="https://github.com/MarioR9" class="social-link social-link--github" id="github">
                         <svg class="social-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/zxcsvg">
@@ -46,6 +47,11 @@ export default class Navigationbar extends React.Component{
                         </g>
                         </svg>
                     </a>
+                    <Nav className="mr-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+    </Nav>
         </Navbar>
             
          </div>
