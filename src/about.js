@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react'
-import { Image } from 'react-bootstrap';
 
 
 export default class About extends React.Component{
