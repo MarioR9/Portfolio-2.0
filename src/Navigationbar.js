@@ -48,9 +48,9 @@ export default class Navigationbar extends React.Component{
                         </svg>
                     </a>
                     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#project">Projects</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>
         </Navbar>
             

@@ -12,14 +12,19 @@ export default class Projects extends React.Component{
         return(
             
             <div>
+            
               <ScrollableAnchor id={'about'}>
+                
                 <div class='aboutBackground'>
+                <br></br>
+                <br></br>
                     <About/>
                 </div>
               </ScrollableAnchor>
               <ScrollableAnchor id={'project'}>
-                <div class="projectsheader">
                 
+                <div class="projectsheader">
+                <br></br>
                 <h1 class="projectsheader">Projects___</h1> 
                 </div>
                 </ScrollableAnchor>
