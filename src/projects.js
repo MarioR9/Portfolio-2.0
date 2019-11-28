@@ -59,7 +59,7 @@ export default class Projects extends React.Component{
                 </Card.Group>
                 </div>
 
-                <div class="techgrid">
+                {/* <div class="techgrid">
                 <h1 class="techHeader">Experienced with___ </h1>
                 <div class="techGridLogos">
                     <div>
@@ -82,7 +82,7 @@ export default class Projects extends React.Component{
                     </div>
                     
                 </div>
-                </div>
+                </div> */}
                 <div>
                 <ScrollableAnchor id={'contact'}>
                     <Contact/>
