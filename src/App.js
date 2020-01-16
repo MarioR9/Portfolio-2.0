@@ -6,7 +6,7 @@ import Rickandmorty from './rickandmorty.js'
 import Tonester from './tonester.js'
 import { Embed, Modal, Popup } from 'semantic-ui-react'
 import './App.css';
-
+//new UX design will be implemented here....
 
 const style = {
   borderRadius: 40,
